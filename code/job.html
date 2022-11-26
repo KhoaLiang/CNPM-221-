@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            table{
+                margin: auto;
+                border-collapse: collapse;
+                width: 50%;
+            }
+            table, th , td{
+                border: 0.5pt solid;
+                padding: 15px;
+            }
+            tr:nth-child(odd) {background: #CCC}
+            tr:nth-child(even) {background: #FFF}
+            th{
+                background-color: lightslategrey;
+            }
+            .workdiv{
+                margin: auto;
+            }
+            .job option{
+                width: 95%;
+                height: 1cm;
+            }
+            .shift option{
+                width: 95%;
+                height: 1cm;
+            }
+            .button{
+                position: relative;
+                top:auto;
+                bottom: auto;
+                left: 23.8cm;
+            }
+            input[type="submit"]{
+                width: 3cm;
+                height: 1cm;
+            }
+        </style>
+    </head>
+    <body>
+        <form action=""> 
+        <div class="workdiv">
+            <table>
+                <caption><h1>Work table</h1></caption>
+                <tr> 
+                    <th>Employee </th>
+                    <th>Job </th>
+                    <th>Shift </th>
+                </tr>
+                {%Employee%}
+            </table>
+        </div>
+        <div class="button"><input type="submit" value="Comfirm" /></div>
+        </form>
+    </body>
+</html>
