@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "name": "A",
+        "job": "janitor",
+        "shift": 0
+    },
+    {
+        "id": "1",
+        "name": "B",
+        "job": "janitor",
+        "shift": 0
+    },
+    {
+        "id": "2",
+        "name": "C",
+        "job": "janitor",
+        "shift": 0
+    },
+    {
+        "id": "3",
+        "name": "D",
+        "job": "driver",
+        "shift": 0
+    },
+    {
+        "id": "4",
+        "name": "E",
+        "job": "driver",
+        "shift": 0
+    },
+    {
+        "id": "5",
+        "name": "F",
+        "job": "driver",
+        "shift": 0
+    }
+]
