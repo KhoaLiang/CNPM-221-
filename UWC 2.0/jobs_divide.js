@@ -25,9 +25,9 @@ const convert_string = (s) =>{
     return arr;
 }
 
-const table = fs.readFileSync('code/job.html', 'utf-8')
-const card = fs.readFileSync('code/em_card.html', 'utf-8')
-const data = fs.readFileSync('code/data.json','utf-8')
+const table = fs.readFileSync('job.html', 'utf-8')
+const card = fs.readFileSync('em_card.html', 'utf-8')
+const data = fs.readFileSync('data.json','utf-8')
 const list = JSON.parse(data)
 const server = http.createServer((req, res) => {
     //console.log(req.url);
