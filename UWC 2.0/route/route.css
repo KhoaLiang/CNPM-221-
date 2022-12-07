@@ -1,0 +1,40 @@
+canvas.setBG {
+    background-image: url("ggmap2.PNG");
+    /* background-size: cover; */
+    cursor: crosshair;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+.context-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
+
+.context-menu ul {
+    padding: 0px;
+    margin: 0px;
+    min-width: 150px;
+    list-style: none;
+}
+
+.context-menu ul li {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.context-menu ul li:hover {
+    background: darkgray;
+}
+
+.buttonPosition{
+    margin-left: 47%; 
+    padding-top: 10px;
+}

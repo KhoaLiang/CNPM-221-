@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="route.css">
+</head>
+
+<body>
+	<div id="menu" class="context-menu">
+		<ul>
+			<li id="delPoint" onclick="delPointFuncton()">Delete Point</li>
+			<li id="connectPoint" onclick="connectToPointFuncton()">Connect</li>
+
+		</ul>
+	</div>
+	<canvas id="myCanvas" width="1000" height="500" class="setBG" oncontextmenu="myfunction()">
+	</canvas>
+	<div class="buttonPosition">
+		<button onclick="clearFunction()" name="buttonClear">Clear all</button>
+	</div>
+	
+	<script src="route.js">	
+	</script>
+</body>
+
+</html>
