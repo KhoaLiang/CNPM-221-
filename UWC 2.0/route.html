@@ -24,10 +24,28 @@
 
             </div>
         </nav>
-        <h1>Route</h1>
+        <div class="text-box1">
+            <h1>Route</h1>
+            <p>Here is where we design routes for collectors and janitors </p>
+
+        </div>
     </section>
 <section>
-    <h1>Route undertaking page</h1>
+    <div id="menu" class="context-menu">
+		<ul>
+			<li id="delPoint" onclick="delPointFuncton()">Delete Point</li>
+			<li id="connectPoint" onclick="connectToPointFuncton()">Connect</li>
+
+		</ul>
+	</div>
+	<canvas id="myCanvas" width="1000" height="500" class="setBG" oncontextmenu="myfunction()">
+	</canvas>
+	<div class="buttonPosition">
+		<button onclick="clearFunction()" name="buttonClear">Clear all</button>
+	</div>
+	
+	<script src="route.js">	
+	</script>
 </section>
 
 

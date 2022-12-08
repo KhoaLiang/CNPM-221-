@@ -104,6 +104,74 @@ nav img{
     background-size: cover;
     color: #fff;
 }
+canvas.setBG {
+    background-image: url("ggmap2.PNG");
+    /* background-size: cover; */
+    background-position: center;
+    background-size: cover;
+    cursor: crosshair;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+}
+
+#menu {
+    display: none;
+}
+
+.context-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
+
+.context-menu ul {
+    padding: 0px;
+    margin: 0px;
+    min-width: 150px;
+    list-style: none;
+}
+
+.context-menu ul li {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.context-menu ul li:hover {
+    background: darkgray;
+}
+
+.buttonPosition{
+    background-color: #e6e9e6;  
+    position: relative;
+    left: 35%;
+    width: 100px;  
+     color: #0f0f0f;   
+     padding: 15px;   
+     margin: 10px 0px; 
+     border-radius: 25px;  
+     border: none;   
+     cursor: pointer;   
+}
+.text-box1{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box1 h1{
+    font-size: 62px;
+}
+.text-box1 p{
+    margin: 10px 0 40px;
+    font-size: 28px;
+    color: #fff;
+}
 /*---- vehicle page ----*/
 .vehicle-header{
     min-height: 50vh;
