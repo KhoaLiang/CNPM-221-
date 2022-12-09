@@ -160,3 +160,14 @@ nav img{
      border: 2px solid rgb(15, 15, 15);
      width: 382px;
  }   
+ .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer.h4{
+    margin-bottom: 600;
+    margin-top: 20px;
+    font-weight: 600;
+} 
